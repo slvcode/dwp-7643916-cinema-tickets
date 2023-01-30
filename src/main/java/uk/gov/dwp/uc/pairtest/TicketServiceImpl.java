@@ -13,8 +13,7 @@ public class TicketServiceImpl implements TicketService {
     private int INFANT_TICKET_PRICE = 0;
     private int CHILD_TICKET_PRICE = 10;
     private int ADULT_TICKET_PRICE = 20;
-    private int INFANT_ALLOCATED_SEAT  = 0;
-    private int NOT_INFANT_ALLOCATED_SEAT  = 1;
+
 
     public TicketServiceImpl(TicketPaymentService ticketPaymentService, SeatReservationService seatReservationService) {
         this.ticketPaymentService = ticketPaymentService;
@@ -119,8 +118,8 @@ public class TicketServiceImpl implements TicketService {
 
             int seats = 0;
             switch (ticketType) {
-                case INFANT-> seats = INFANT_ALLOCATED_SEAT;
-                case CHILD, ADULT -> seats = NOT_INFANT_ALLOCATED_SEAT;
+                case INFANT-> seats = 0;
+                case CHILD, ADULT -> seats = 1;
             }
             totalNofSeatsToAllocate += seats * nofTickets;
         }

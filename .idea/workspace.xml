@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ef472d-1efc-48ff-9891-a5d8cf2b3edc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/gov/dwp/uc/pairtest/TicketServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dwp-7643916-cinema-tickets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dwp-7643916-cinema-tickets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/TicketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/TicketServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/exception/InvalidPurchaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/exception/InvalidPurchaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/gov/dwp/uc/pairtest/TicketServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/gov/dwp/uc/pairtest/TicketServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

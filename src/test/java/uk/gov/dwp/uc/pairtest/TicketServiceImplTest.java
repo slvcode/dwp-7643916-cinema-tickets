@@ -45,7 +45,7 @@ class TicketServiceImplTest {
     }
 
     @Test
-    @DisplayName("Nof adults must be grater than or equals to infants test")
+    @DisplayName("Adults must be grater than or equals to Infants test")
     public void testMoreAdultsThanInfantTickets() throws InvalidPurchaseException {
         TicketPaymentService ticketPaymentService = Mockito.mock(TicketPaymentService.class);
         SeatReservationService seatReservationService = Mockito.mock(SeatReservationService.class);
