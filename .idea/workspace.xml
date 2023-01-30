@@ -5,16 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ef472d-1efc-48ff-9891-a5d8cf2b3edc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/gov/dwp/uc/pairtest/TicketServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dwp-7643916-cinema-tickets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dwp-7643916-cinema-tickets.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/TicketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/TicketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/exception/InvalidPurchaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/dwp/uc/pairtest/exception/InvalidPurchaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,20 +38,129 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Kx96GasWXW1jfMf6pBYP7zYQyB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="uk.gov.dwp.uc.pairtest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TicketServiceImplTest">
+    <configuration name="TicketServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dwp-7643916-cinema-tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.gov.dwp.uc.pairtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.gov.dwp.uc.pairtest" />
+      <option name="MAIN_CLASS_NAME" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiceImplTest.testHasAdultTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dwp-7643916-cinema-tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.gov.dwp.uc.pairtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.gov.dwp.uc.pairtest" />
+      <option name="MAIN_CLASS_NAME" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" />
+      <option name="METHOD_NAME" value="testHasAdultTicket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiceImplTest.testInfantDoNotPayForTickets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dwp-7643916-cinema-tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.gov.dwp.uc.pairtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.gov.dwp.uc.pairtest" />
+      <option name="MAIN_CLASS_NAME" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" />
+      <option name="METHOD_NAME" value="testInfantDoNotPayForTickets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiceImplTest.testMoreAdultsThanInfantTickets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dwp-7643916-cinema-tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.gov.dwp.uc.pairtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.gov.dwp.uc.pairtest" />
+      <option name="MAIN_CLASS_NAME" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" />
+      <option name="METHOD_NAME" value="testMoreAdultsThanInfantTickets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiceImplTest.testNotAssigningSeatsForInfant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dwp-7643916-cinema-tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.gov.dwp.uc.pairtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.gov.dwp.uc.pairtest" />
+      <option name="MAIN_CLASS_NAME" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" />
+      <option name="METHOD_NAME" value="testNotAssigningSeatsForInfant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TicketServiceImplTest" />
+        <item itemvalue="JUnit.TicketServiceImplTest.testNotAssigningSeatsForInfant" />
+        <item itemvalue="JUnit.TicketServiceImplTest.testInfantDoNotPayForTickets" />
+        <item itemvalue="JUnit.TicketServiceImplTest.testHasAdultTicket" />
+        <item itemvalue="JUnit.TicketServiceImplTest.testMoreAdultsThanInfantTickets" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,5 +171,16 @@
       <updated>1674905189572</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
